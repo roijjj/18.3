@@ -20,19 +20,20 @@ public class Demo {
         //String name;
         //create some  objects
         EmployeeMap employeeMap = new EmployeeMap();
-
+//add employee to the employeeMap
         employeeMap.add(new Employee("Bill", 1));
         employeeMap.add(new Employee("Lucy", 3));
         employeeMap.add(new Employee("CEO", 0));
         employeeMap.add(new Employee("George", 432));
 
-        
+        //asks for a employee name
         System.out.print("add an employee: ");
                 String na = scanner.nextLine();
-                
+                //ask for the id
                  System.out.print("add the id number of the emplyee: ");
                 int id1 = scanner.nextInt();
                 
+   //adds an employee to the employeeMap
          employeeMap.add(new Employee(na, id1));
 
         while(true)
@@ -54,6 +55,8 @@ public class Demo {
 
                 }
                 else if(d == 2){*/
+             
+             //ask the user to enter the id number to search the map
                 System.out.print("Enter the id number you want to search for: ");
                 int id = scanner.nextInt();
 
