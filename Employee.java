@@ -11,8 +11,8 @@ package demo;
  */
 public class Employee
 {
-    private String name;
-    private int id;
+    private String name;//the name of the employee
+    private int id;//the id of the employee
 
     
      //Creates a new Employee
